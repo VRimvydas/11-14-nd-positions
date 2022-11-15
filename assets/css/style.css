@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 1000px;
+    width: 100%;
+    background-color: #3B5562;
+
+}
+
+.block-top {
+
+    height: 70px;
+    background-color: white;
+    width: 90%;
+    text-align: right;
+    position: absolute;
+    z-index: 3;
+    top: 70px;
+    right: 70px;
+}
+
+.block-top p {
+    position: relative;
+
+    top: 15px;
+    right: 30px;
+
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.block-top2 {
+    width: 200px;
+    height: 200px;
+    margin-left: calc((100% - 270px) / 2);
+    background-color: red;
+    color: white;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+    font-size: 50px;
+
+
+}
+
+.block-top2-letters {
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
+}
+
+.content {
+    height: 800px;
+    background-color: lightgray;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    left: 140px;
+    font-size: 40px;
+}
+
+
+
+.title-letters {
+
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    left: 280px;
+
+
+}
+
+.content-letters {
+    color: mediumspringgreen;
+    font-size: 80px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 520px;
+}
+
+.card {
+    background-color: red;
+    font-size: 14px;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    text-align: center;
+}
+
+.card p {
+    color: white;
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    position: absolute;
+    top: 330px;
+    left: 110px;
+    padding: 8px;
+
+
+}
+
+.wmn {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+
+
+}
